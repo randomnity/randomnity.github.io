@@ -25,7 +25,7 @@
 *******************************/
 
 img {
-  -webkit-filter: blur(3px) grayscale(50%) sepia(30%);
+  -webkit-filter: blur(2px) grayscale(50%) sepia(30%);
 
   margin-left: auto;
   margin-right: auto;
@@ -35,11 +35,6 @@ img {
             Sticky
 *******************************/
 
-.ui.sticky.bound.bottom{
-
-padding-top: 100px !important; display: inline-block !important; width: 690px !important; height: 130px !important; margin-top: 0px; left: 311.391px !important;
-
-}
 
 /*******************************
       Active Button Feedback
@@ -70,3 +65,10 @@ u {
     border-bottom: 1px dotted #000;
     text-decoration: none;
 }
+
+
+#file-output{
+	overflow:auto;
+}
+
+
